@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
+ul {
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Oswald";
+  font-size: 1vw;
+}
+.logo {
+  width: 50%;
+  margin: 5em auto 0 auto;
+}
+.logo img {
+  width: 100%;
+}
+
+.leftside {
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu li {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 1em;
+}
+.menu a {
+  text-decoration: none;
+  color: #8b8b8b;
+}
+.menu a:hover {
+  color: #000;
+}
+.rightside {
+  position: relative;
+  width: 75%;
+  float: right;
+  height: 100%;
+  background: #b9160f;
+  /* #5789ffde */
+}
+
+.loginForm {
+  position: absolute;
+  top: 47%;
+  width: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="text"],
+input[type="password"] {
+  box-sizing: border-box;
+}
+
+.login input {
+  font-family: "Oswald";
+  font-size: medium;
+
+  padding-left: 10px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 1.6em;
+  border: #000 4px solid;
+}
+
+.submit input {
+  cursor: pointer;
+  font-family: "Oswald";
+  font-size: medium;
+  background-color: #fff;
+  width: 30%;
+  height: 35px;
+  float: right;
+  border: #000 4px solid;
+}
