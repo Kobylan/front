@@ -22,7 +22,7 @@ body {
 #leftside {
   position: relative;
   float: left;
-  width: 25%;
+  width: 20%;
   height: 100%;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 #rightside {
   position: relative;
-  width: 75%;
+  width: 80%;
   float: right;
   height: 100%;
   background: #b9160f;
@@ -86,4 +86,15 @@ input[typr="submit"] {
   height: 2vw;
   float: right;
   border: #000 4px solid;
+}
+button {
+  border-radius: unset;
+  box-sizing: border-box;
+  border: unset;
+  /* background: #000; */
+  background: #fff;
+  border: #000 solid 3px;
+  font-size: 1em;
+  font-family: "Oswald";
+  /* color: #8b8b8b; */
 }

@@ -15,6 +15,9 @@ const Menu = () => (
       <li>
         <a href="#">Конструктор тортов</a>
       </li>
+      <li>
+        <button>Стать поваром</button>
+      </li>
     </ul>
   </div>
 );
